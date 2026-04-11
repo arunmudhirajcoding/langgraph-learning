@@ -6,13 +6,18 @@ readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
     "dotenv>=0.9.9",
+    "faiss-cpu>=1.13.2",
     "ipykernel>=7.1.0",
     "langchain>=1.1.0",
+    "langchain-community>=0.4.1",
     "langchain-groq>=1.1.0",
+    "langchain-ollama>=1.1.0",
     "langchain-openai>=1.1.0",
+    "langchain-voyageai>=0.3.3",
     "langgraph>=1.0.4",
     "langgraph-checkpoint-sqlite>=3.0.3",
     "notebook>=7.5.0",
     "numpy>=2.3.5",
+    "pypdf>=6.9.2",
     "streamlit>=1.56.0",
 ]
